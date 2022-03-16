@@ -67,7 +67,7 @@ if __name__=="__main__":
     while True:
         query=takeCommand().lower()
 
-        #logic to exicute your task
+        
 
         if 'wikipedia' in query:                    #wikidepia "install wikipedia"
             speak("Searching wikipedia...")
