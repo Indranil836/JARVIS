@@ -44,7 +44,7 @@ def takeCommand():          #it take microphone input and string output generate
         query=r.recognize_google(audio, language="en-US")   #to search the result and en-in for english india
         print(f"User Said : {query}\n") #query=user said
 
-    except Exception as e:      #exceotion occur as pyaudio ont instal and recognize_google Language error occur
+    except Exception as e:      
         print(e)
         print("Say that again please...")
         return "None"   #if exception occurs than return None
@@ -71,7 +71,7 @@ if __name__=="__main__":
 
         if 'wikipedia' in query:                    #wikidepia "install wikipedia"
             speak("Searching wikipedia...")
-            query=query.replace("wikipedia", "")    #replace voices speking in blank place
+            query=query.replace("wikipedia", "")    
             results=wikipedia.summary(query,sentences=2)
             speak("Accourding to Wikipedia")
             print(results)
@@ -91,7 +91,7 @@ if __name__=="__main__":
             webbrowser.open("stackoverFlow.com")
 
         elif "play song" in query:
-            music_dir="F:\\pendrive\\song 2017-18"      #use extra \    #use for select dirtiory
+            music_dir="F:\\pendrive\\song 2017-18"      
             songs=os.listdir(music_dir)     #list dir
             os.startfile(os.path.join(music_dir,songs[4]))      #start music player
 
