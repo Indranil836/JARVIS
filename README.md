@@ -7,7 +7,7 @@ This was my attempt to make a voice assistant similar to JARVIS (in iron man mov
 
 It can do a lot of cool things, some of them being:
 
-Plays music
+
 
  1.Tells about any person (via Wikipedia)
  
@@ -18,6 +18,8 @@ Plays music
  4.Send email (with subject and content)
  
  5.Can switch the window
+ 
+ 6.Plays music
  
 
 
