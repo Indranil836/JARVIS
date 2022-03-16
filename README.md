@@ -21,5 +21,7 @@ It can do a lot of cool things, some of them being:
  
  6.Plays music
  
+ 7.Open any application on your computer.
+ 
 
 
